@@ -1,1 +1,1 @@
-web: gunicorn --bind 0.0.0.0:59096 app:app
+web: gunicorn app:create_app --workers 3 --bind 0.0.0.0:$PORT

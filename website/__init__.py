@@ -9,7 +9,7 @@ db = SQLAlchemy()
 def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'sepkil_shox08'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://lgniinuctxwsyh:286328c6c4318a26011fc89791707e6a5db71cfa952e3d1ffda23ef9dfd168dc@ec2-44-213-228-107.compute-1.amazonaws.com:5432/d54bb4nq85cmsh'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://cazgerhcnnyesv:a25e583b812762410876c3d918207843e2931b73fb42ff919cad55c3bd2dc8ce@ec2-44-213-228-107.compute-1.amazonaws.com:5432/dfv44jbj5g77g1'
     db.init_app(app)
 
     from .views import views
